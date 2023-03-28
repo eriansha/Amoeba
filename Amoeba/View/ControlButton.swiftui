@@ -1,0 +1,23 @@
+//
+//  CircleButton.swift
+//  Amoeba
+//
+//  Created by Ivan on 20/03/23.
+//
+
+import SwiftUI
+
+struct CircleButton: View {
+    var title: String
+    var action: () -> Void
+    
+    var body: some View {
+        
+    }
+}
+
+struct CircleButton_Previews: PreviewProvider {
+    static var previews: some View {
+        CircleButton()
+    }
+}

@@ -7,18 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1C781A29C8B44100EF2AD1 /* FriendCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C781929C8B44100EF2AD1 /* FriendCarousel.swift */; };
+		2C1C781C29C8B8AF00EF2AD1 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C781B29C8B8AF00EF2AD1 /* Friend.swift */; };
+		2C1C781E29C8B90E00EF2AD1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C781D29C8B90E00EF2AD1 /* ModelData.swift */; };
+		2C265C0329C8A31600C64B5D /* BackgroundBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C265C0229C8A31600C64B5D /* BackgroundBlob.swift */; };
+		2C38A26729C9AE2400C2E4A6 /* FriendshipBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A26629C9AE2400C2E4A6 /* FriendshipBadge.swift */; };
+		2C38A26929C9AF0D00C2E4A6 /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A26829C9AF0D00C2E4A6 /* Friendship.swift */; };
+		2C38A26B29C9B70000C2E4A6 /* FriendshipStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A26A29C9B70000C2E4A6 /* FriendshipStatus.swift */; };
+		2C43041629D3285B008CC9AE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C43041529D3285B008CC9AE /* .gitignore */; };
 		2C4C83E329C82CD7000A95C7 /* AmoebaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83E229C82CD7000A95C7 /* AmoebaApp.swift */; };
 		2C4C83E529C82CD7000A95C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83E429C82CD7000A95C7 /* ContentView.swift */; };
 		2C4C83E729C82CD8000A95C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C83E629C82CD8000A95C7 /* Assets.xcassets */; };
-		2C4C83EA29C82CD8000A95C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C83E929C82CD8000A95C7 /* Preview Assets.xcassets */; };
+		2C4C83FA29C82D12000A95C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83F629C82D12000A95C7 /* HomeView.swift */; };
+		2C4C83FB29C82D12000A95C7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83F729C82D12000A95C7 /* SplashView.swift */; };
+		2C4C83FC29C82D12000A95C7 /* FriendThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83F829C82D12000A95C7 /* FriendThumbnail.swift */; };
+		2C4C83FF29C82F54000A95C7 /* splashScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C83FE29C82F54000A95C7 /* splashScreen.json */; };
+		2C4C840229C82F9F000A95C7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2C4C840129C82F9F000A95C7 /* Lottie */; };
+		2C4C840429C82FC2000A95C7 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C840329C82FC2000A95C7 /* LottieView.swift */; };
+		2C5780AF29C8B9BE0059ADF6 /* FriendData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C5780AE29C8B9BE0059ADF6 /* FriendData.json */; };
+		2C613A2E29CC49A0001B1708 /* FriendGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C613A2D29CC49A0001B1708 /* FriendGrid.swift */; };
+		2C80F6DA29C950C000F01CD1 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F6D929C950C000F01CD1 /* MissionView.swift */; };
+		2C80F6DC29C9631D00F01CD1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F6DB29C9631D00F01CD1 /* Colors.swift */; };
+		2C80F6E029C964BA00F01CD1 /* FriendProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F6DF29C964BA00F01CD1 /* FriendProfile.swift */; };
+		2C80F6E629C96A6F00F01CD1 /* FriendshipMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F6E529C96A6F00F01CD1 /* FriendshipMission.swift */; };
+		2C80F6EA29C9721D00F01CD1 /* CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F6E929C9721D00F01CD1 /* CustomStyle.swift */; };
+		2CB21F6529CBFACE0035BDDA /* MissionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CB21F6429CBFACE0035BDDA /* MissionData.json */; };
+		2CB21F6729CBFC0B0035BDDA /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F6629CBFC0B0035BDDA /* Mission.swift */; };
+		2CB21F7129CC28210035BDDA /* MissionBoardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7029CC28210035BDDA /* MissionBoardHeader.swift */; };
+		2CB21F7329CC2AEC0035BDDA /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */; };
+		2CB21F7529CC2C1B0035BDDA /* MissionBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7429CC2C1B0035BDDA /* MissionBoardView.swift */; };
+		2CB21F7729CC2CC50035BDDA /* MissionProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7629CC2CC50035BDDA /* MissionProgress.swift */; };
+		2CB21F7929CC2FA70035BDDA /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */; };
+		2CB21F7B29CC3D630035BDDA /* FriendshipTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7A29CC3D630035BDDA /* FriendshipTips.swift */; };
+		2CBFD08829D021F60035ABE5 /* friendship.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CBFD08729D021F60035ABE5 /* friendship.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1C781929C8B44100EF2AD1 /* FriendCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCarousel.swift; sourceTree = "<group>"; };
+		2C1C781B29C8B8AF00EF2AD1 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		2C1C781D29C8B90E00EF2AD1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		2C265C0229C8A31600C64B5D /* BackgroundBlob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlob.swift; sourceTree = "<group>"; };
+		2C38A26629C9AE2400C2E4A6 /* FriendshipBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipBadge.swift; sourceTree = "<group>"; };
+		2C38A26829C9AF0D00C2E4A6 /* Friendship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
+		2C38A26A29C9B70000C2E4A6 /* FriendshipStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipStatus.swift; sourceTree = "<group>"; };
+		2C43041529D3285B008CC9AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2C4C83DF29C82CD7000A95C7 /* Amoeba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amoeba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4C83E229C82CD7000A95C7 /* AmoebaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoebaApp.swift; sourceTree = "<group>"; };
-		2C4C83E429C82CD7000A95C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C4C83E429C82CD7000A95C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		2C4C83E629C82CD8000A95C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C4C83E929C82CD8000A95C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C4C83F629C82D12000A95C7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2C4C83F729C82D12000A95C7 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		2C4C83F829C82D12000A95C7 /* FriendThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendThumbnail.swift; sourceTree = "<group>"; };
+		2C4C83FE29C82F54000A95C7 /* splashScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splashScreen.json; sourceTree = "<group>"; };
+		2C4C840329C82FC2000A95C7 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		2C5780AE29C8B9BE0059ADF6 /* FriendData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FriendData.json; sourceTree = "<group>"; };
+		2C613A2D29CC49A0001B1708 /* FriendGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendGrid.swift; sourceTree = "<group>"; };
+		2C80F6D929C950C000F01CD1 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		2C80F6DB29C9631D00F01CD1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2C80F6DF29C964BA00F01CD1 /* FriendProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfile.swift; sourceTree = "<group>"; };
+		2C80F6E529C96A6F00F01CD1 /* FriendshipMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipMission.swift; sourceTree = "<group>"; };
+		2C80F6E929C9721D00F01CD1 /* CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyle.swift; sourceTree = "<group>"; };
+		2CB21F6429CBFACE0035BDDA /* MissionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MissionData.json; sourceTree = "<group>"; };
+		2CB21F6629CBFC0B0035BDDA /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		2CB21F7029CC28210035BDDA /* MissionBoardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionBoardHeader.swift; sourceTree = "<group>"; };
+		2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		2CB21F7429CC2C1B0035BDDA /* MissionBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionBoardView.swift; sourceTree = "<group>"; };
+		2CB21F7629CC2CC50035BDDA /* MissionProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionProgress.swift; sourceTree = "<group>"; };
+		2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		2CB21F7A29CC3D630035BDDA /* FriendshipTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipTips.swift; sourceTree = "<group>"; };
+		2CBFD08729D021F60035ABE5 /* friendship.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friendship.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4C840229C82F9F000A95C7 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +93,7 @@
 		2C4C83D629C82CD7000A95C7 = {
 			isa = PBXGroup;
 			children = (
+				2C43041529D3285B008CC9AE /* .gitignore */,
 				2C4C83E129C82CD7000A95C7 /* Amoeba */,
 				2C4C83E029C82CD7000A95C7 /* Products */,
 			);
@@ -51,8 +110,10 @@
 		2C4C83E129C82CD7000A95C7 /* Amoeba */ = {
 			isa = PBXGroup;
 			children = (
+				2C5780AD29C8B9950059ADF6 /* Resources */,
+				2C4C83F529C82D12000A95C7 /* View */,
+				2C4C83F229C82D07000A95C7 /* Model */,
 				2C4C83E229C82CD7000A95C7 /* AmoebaApp.swift */,
-				2C4C83E429C82CD7000A95C7 /* ContentView.swift */,
 				2C4C83E629C82CD8000A95C7 /* Assets.xcassets */,
 				2C4C83E829C82CD8000A95C7 /* Preview Content */,
 			);
@@ -62,9 +123,98 @@
 		2C4C83E829C82CD8000A95C7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2C4C83E929C82CD8000A95C7 /* Preview Assets.xcassets */,
+				2CBFD08729D021F60035ABE5 /* friendship.json */,
+				2C4C83FE29C82F54000A95C7 /* splashScreen.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C4C83F229C82D07000A95C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C1C781B29C8B8AF00EF2AD1 /* Friend.swift */,
+				2C1C781D29C8B90E00EF2AD1 /* ModelData.swift */,
+				2C38A26829C9AF0D00C2E4A6 /* Friendship.swift */,
+				2CB21F6629CBFC0B0035BDDA /* Mission.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C4C83F529C82D12000A95C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C50529CEA7CA00355DF9 /* Friendship */,
+				2CB21F6F29CC28020035BDDA /* Mission */,
+				2C5780B229C8BCB00059ADF6 /* Friend */,
+				2C5780B129C8BCA00059ADF6 /* Screen */,
+				2C5780B029C8BC660059ADF6 /* Helpers */,
+				2C4C83E429C82CD7000A95C7 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C5780AD29C8B9950059ADF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CB21F6429CBFACE0035BDDA /* MissionData.json */,
+				2C5780AE29C8B9BE0059ADF6 /* FriendData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C5780B029C8BC660059ADF6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C80F6DB29C9631D00F01CD1 /* Colors.swift */,
+				2C4C840329C82FC2000A95C7 /* LottieView.swift */,
+				2C265C0229C8A31600C64B5D /* BackgroundBlob.swift */,
+				2C80F6E929C9721D00F01CD1 /* CustomStyle.swift */,
+				2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */,
+				2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C5780B129C8BCA00059ADF6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C83F629C82D12000A95C7 /* HomeView.swift */,
+				2C4C83F729C82D12000A95C7 /* SplashView.swift */,
+				2C80F6D929C950C000F01CD1 /* MissionView.swift */,
+				2CB21F7429CC2C1B0035BDDA /* MissionBoardView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		2C5780B229C8BCB00059ADF6 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C83F829C82D12000A95C7 /* FriendThumbnail.swift */,
+				2C1C781929C8B44100EF2AD1 /* FriendCarousel.swift */,
+				2C80F6DF29C964BA00F01CD1 /* FriendProfile.swift */,
+				2C613A2D29CC49A0001B1708 /* FriendGrid.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		2C94C50529CEA7CA00355DF9 /* Friendship */ = {
+			isa = PBXGroup;
+			children = (
+				2C80F6E529C96A6F00F01CD1 /* FriendshipMission.swift */,
+				2C38A26629C9AE2400C2E4A6 /* FriendshipBadge.swift */,
+				2C38A26A29C9B70000C2E4A6 /* FriendshipStatus.swift */,
+				2CB21F7A29CC3D630035BDDA /* FriendshipTips.swift */,
+			);
+			path = Friendship;
+			sourceTree = "<group>";
+		};
+		2CB21F6F29CC28020035BDDA /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				2CB21F7029CC28210035BDDA /* MissionBoardHeader.swift */,
+				2CB21F7629CC2CC50035BDDA /* MissionProgress.swift */,
+			);
+			path = Mission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +233,9 @@
 			dependencies = (
 			);
 			name = Amoeba;
+			packageProductDependencies = (
+				2C4C840129C82F9F000A95C7 /* Lottie */,
+			);
 			productName = Amoeba;
 			productReference = 2C4C83DF29C82CD7000A95C7 /* Amoeba.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 2C4C83D629C82CD7000A95C7;
+			packageReferences = (
+				2C4C840029C82F9F000A95C7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2C4C83E029C82CD7000A95C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +281,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4C83EA29C82CD8000A95C7 /* Preview Assets.xcassets in Resources */,
+				2CB21F6529CBFACE0035BDDA /* MissionData.json in Resources */,
+				2C4C83FF29C82F54000A95C7 /* splashScreen.json in Resources */,
 				2C4C83E729C82CD8000A95C7 /* Assets.xcassets in Resources */,
+				2C5780AF29C8B9BE0059ADF6 /* FriendData.json in Resources */,
+				2C43041629D3285B008CC9AE /* .gitignore in Resources */,
+				2CBFD08829D021F60035ABE5 /* friendship.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +298,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4C83E529C82CD7000A95C7 /* ContentView.swift in Sources */,
+				2C80F6DC29C9631D00F01CD1 /* Colors.swift in Sources */,
+				2CB21F7729CC2CC50035BDDA /* MissionProgress.swift in Sources */,
+				2C1C781A29C8B44100EF2AD1 /* FriendCarousel.swift in Sources */,
+				2CB21F7B29CC3D630035BDDA /* FriendshipTips.swift in Sources */,
+				2C4C83FA29C82D12000A95C7 /* HomeView.swift in Sources */,
+				2C4C83FB29C82D12000A95C7 /* SplashView.swift in Sources */,
+				2C4C83FC29C82D12000A95C7 /* FriendThumbnail.swift in Sources */,
 				2C4C83E329C82CD7000A95C7 /* AmoebaApp.swift in Sources */,
+				2C1C781C29C8B8AF00EF2AD1 /* Friend.swift in Sources */,
+				2C80F6DA29C950C000F01CD1 /* MissionView.swift in Sources */,
+				2C1C781E29C8B90E00EF2AD1 /* ModelData.swift in Sources */,
+				2CB21F7129CC28210035BDDA /* MissionBoardHeader.swift in Sources */,
+				2C80F6E629C96A6F00F01CD1 /* FriendshipMission.swift in Sources */,
+				2CB21F7529CC2C1B0035BDDA /* MissionBoardView.swift in Sources */,
+				2C613A2E29CC49A0001B1708 /* FriendGrid.swift in Sources */,
+				2C80F6E029C964BA00F01CD1 /* FriendProfile.swift in Sources */,
+				2C265C0329C8A31600C64B5D /* BackgroundBlob.swift in Sources */,
+				2CB21F7329CC2AEC0035BDDA /* RoundedCornerShape.swift in Sources */,
+				2C38A26B29C9B70000C2E4A6 /* FriendshipStatus.swift in Sources */,
+				2C80F6EA29C9721D00F01CD1 /* CustomStyle.swift in Sources */,
+				2C4C840429C82FC2000A95C7 /* LottieView.swift in Sources */,
+				2C38A26729C9AE2400C2E4A6 /* FriendshipBadge.swift in Sources */,
+				2CB21F6729CBFC0B0035BDDA /* Mission.swift in Sources */,
+				2CB21F7929CC2FA70035BDDA /* ProgressBar.swift in Sources */,
+				2C38A26929C9AF0D00C2E4A6 /* Friendship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Amoeba/Preview Content\"";
+				DEVELOPMENT_TEAM = 63Z24W5HZV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Amoeba/Preview Content\"";
+				DEVELOPMENT_TEAM = 63Z24W5HZV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +489,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +525,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C4C840029C82F9F000A95C7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C4C840129C82F9F000A95C7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C4C840029C82F9F000A95C7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C4C83D729C82CD7000A95C7 /* Project object */;
 }

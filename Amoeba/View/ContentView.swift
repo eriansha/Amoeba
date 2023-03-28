@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Amoeba
 //
-//  Created by Ivan on 20/03/23.
+//  Created by Ivan on 15/03/23.
 //
 
 import SwiftUI
@@ -31,6 +31,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ModelData())
     }
 }

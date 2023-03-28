@@ -1,0 +1,467 @@
+[
+    {
+        "id": 1,
+        "name": "Adrian",
+        "imageName": "AdrianProfilePicture",
+        "age": 23,
+        "shortDescription": "I am an aspiring designer that is looking for friends that share the same motivation to become better like me.",
+        "wa": "6281312472501",
+        "instagram": "adriankrnd",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Angel",
+        "imageName": "AngelProfilePicture",
+        "age": 20,
+        "shortDescription": "Music lover, bookworm, and aspiring chef.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Audri",
+        "imageName": "AudriProfilePicture",
+        "age": 22,
+        "shortDescription": "Dog person, coffee addict, and avid hiker seeking someone who shares my interests.",
+        "wa": "00000000",
+        "instagram": "audriella_",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Belinda",
+        "imageName": "BelindaProfilePicture",
+        "age": 21,
+        "shortDescription": "Hai ges :) Nice to meet u <3",
+        "wa": "6285939971115",
+        "instagram": "belindax01",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Icho",
+        "imageName": "IchoProfilePicture",
+        "age": 23,
+        "shortDescription": "Creative, spontaneous person.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Mitun",
+        "imageName": "MitunProfilePicture",
+        "age": 34,
+        "shortDescription": "Seeking authentic and meaningful connections with people who value honesty and trust.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Robert",
+        "imageName": "RobertProfilePicture",
+        "age": 21,
+        "shortDescription": "Looking for friends who value diversity, inclusivity, and social justice.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Tasya",
+        "imageName": "TasyaProfilePicture",
+        "age": 23,
+        "shortDescription": "Seeking friendships that are supportive, uplifting, and bring out the best in each other.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Nanda",
+        "imageName": "NandaProfilePicture",
+        "age": 26,
+        "shortDescription": "Never really exists",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Chia",
+        "imageName": "ChiaProfilePicture",
+        "age": 23,
+        "shortDescription": "Seeking authentic and meaningful connections with people who value honesty and trust.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Kamal",
+        "imageName": "KamalProfilePicture",
+        "age": 23,
+        "shortDescription": "Musician, foodie, and traveler seeking like-minded individuals to connect with on a deeper level.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Zanira",
+        "imageName": "ZaniraProfilePicture",
+        "age": 23,
+        "shortDescription": "Nature lover, outdoor enthusiast, and sustainability advocate seeking friends who are passionate about environmentalism.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Rachel",
+        "imageName": "RachelProfilePicture",
+        "age": 23,
+        "shortDescription": "Food lover, wine enthusiast, and amateur chef looking for friends to share my culinary adventures with.",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Michael",
+        "imageName": "MichaelProfilePicture",
+        "age": 23,
+        "shortDescription": "Geek culture, gaming, and all things nerdy",
+        "wa": "",
+        "instagram": "",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Radya",
+        "imageName": "RadyaProfilePicture",
+        "age": 23,
+        "shortDescription": "Travel junkie, adventure seeker, and wanderlust enthusiast",
+        "wa": "",
+        "instagram": "radya.a.r",
+        "missionTracking": [
+            {
+                "id": 1,
+                "isCompleted": false
+            },
+            {
+                "id": 2,
+                "isCompleted": false
+            },
+            {
+                "id": 3,
+                "isCompleted": false
+            },
+            {
+                "id": 4,
+                "isCompleted": false
+            },
+            {
+                "id": 5,
+                "isCompleted": false
+            }
+        ]
+    }
+]
