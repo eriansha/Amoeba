@@ -15,6 +15,7 @@
 		2C38A26929C9AF0D00C2E4A6 /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A26829C9AF0D00C2E4A6 /* Friendship.swift */; };
 		2C38A26B29C9B70000C2E4A6 /* FriendshipStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A26A29C9B70000C2E4A6 /* FriendshipStatus.swift */; };
 		2C43041629D3285B008CC9AE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C43041529D3285B008CC9AE /* .gitignore */; };
+		2C43FB4029E3963B00781A69 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43FB3F29E3963B00781A69 /* RoundedCornerShape.swift */; };
 		2C4C83E329C82CD7000A95C7 /* AmoebaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83E229C82CD7000A95C7 /* AmoebaApp.swift */; };
 		2C4C83E529C82CD7000A95C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C83E429C82CD7000A95C7 /* ContentView.swift */; };
 		2C4C83E729C82CD8000A95C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C83E629C82CD8000A95C7 /* Assets.xcassets */; };
@@ -34,7 +35,6 @@
 		2CB21F6529CBFACE0035BDDA /* MissionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CB21F6429CBFACE0035BDDA /* MissionData.json */; };
 		2CB21F6729CBFC0B0035BDDA /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F6629CBFC0B0035BDDA /* Mission.swift */; };
 		2CB21F7129CC28210035BDDA /* MissionBoardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7029CC28210035BDDA /* MissionBoardHeader.swift */; };
-		2CB21F7329CC2AEC0035BDDA /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */; };
 		2CB21F7529CC2C1B0035BDDA /* MissionBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7429CC2C1B0035BDDA /* MissionBoardView.swift */; };
 		2CB21F7729CC2CC50035BDDA /* MissionProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7629CC2CC50035BDDA /* MissionProgress.swift */; };
 		2CB21F7929CC2FA70035BDDA /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */; };
@@ -51,6 +51,7 @@
 		2C38A26829C9AF0D00C2E4A6 /* Friendship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
 		2C38A26A29C9B70000C2E4A6 /* FriendshipStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendshipStatus.swift; sourceTree = "<group>"; };
 		2C43041529D3285B008CC9AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2C43FB3F29E3963B00781A69 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		2C4C83DF29C82CD7000A95C7 /* Amoeba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amoeba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4C83E229C82CD7000A95C7 /* AmoebaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoebaApp.swift; sourceTree = "<group>"; };
 		2C4C83E429C82CD7000A95C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		2CB21F6429CBFACE0035BDDA /* MissionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MissionData.json; sourceTree = "<group>"; };
 		2CB21F6629CBFC0B0035BDDA /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		2CB21F7029CC28210035BDDA /* MissionBoardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionBoardHeader.swift; sourceTree = "<group>"; };
-		2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		2CB21F7429CC2C1B0035BDDA /* MissionBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionBoardView.swift; sourceTree = "<group>"; };
 		2CB21F7629CC2CC50035BDDA /* MissionProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionProgress.swift; sourceTree = "<group>"; };
 		2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 				2C4C840329C82FC2000A95C7 /* LottieView.swift */,
 				2C265C0229C8A31600C64B5D /* BackgroundBlob.swift */,
 				2C80F6E929C9721D00F01CD1 /* CustomStyle.swift */,
-				2CB21F7229CC2AEC0035BDDA /* RoundedCornerShape.swift */,
 				2CB21F7829CC2FA70035BDDA /* ProgressBar.swift */,
+				2C43FB3F29E3963B00781A69 /* RoundedCornerShape.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -303,6 +303,7 @@
 				2C1C781A29C8B44100EF2AD1 /* FriendCarousel.swift in Sources */,
 				2CB21F7B29CC3D630035BDDA /* FriendshipTips.swift in Sources */,
 				2C4C83FA29C82D12000A95C7 /* HomeView.swift in Sources */,
+				2C43FB4029E3963B00781A69 /* RoundedCornerShape.swift in Sources */,
 				2C4C83FB29C82D12000A95C7 /* SplashView.swift in Sources */,
 				2C4C83FC29C82D12000A95C7 /* FriendThumbnail.swift in Sources */,
 				2C4C83E329C82CD7000A95C7 /* AmoebaApp.swift in Sources */,
@@ -315,7 +316,6 @@
 				2C613A2E29CC49A0001B1708 /* FriendGrid.swift in Sources */,
 				2C80F6E029C964BA00F01CD1 /* FriendProfile.swift in Sources */,
 				2C265C0329C8A31600C64B5D /* BackgroundBlob.swift in Sources */,
-				2CB21F7329CC2AEC0035BDDA /* RoundedCornerShape.swift in Sources */,
 				2C38A26B29C9B70000C2E4A6 /* FriendshipStatus.swift in Sources */,
 				2C80F6EA29C9721D00F01CD1 /* CustomStyle.swift in Sources */,
 				2C4C840429C82FC2000A95C7 /* LottieView.swift in Sources */,
