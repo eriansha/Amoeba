@@ -17,14 +17,6 @@ final class ModelData: ObservableObject {
             $0.totalCompletedMission > $1.totalCompletedMission
         }
     }
-    
-//    init() {
-//        var friends: [Friend] = load("FriendData.json")
-//        var missions: [Mission] = load("MissionData.json")
-//
-//        UserDefaults.standard.set(friends, forKey: "friends")
-//        UserDefaults.standard.set(missions, forKey: "missions")
-//    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
