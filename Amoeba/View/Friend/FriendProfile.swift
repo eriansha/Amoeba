@@ -11,6 +11,18 @@ struct FriendProfile: View {
     @EnvironmentObject var modelData: ModelData
     var friend: Friend
     
+    func redirectToSocialMedia() {
+        if let url = URL(string: "instagram//app/\(friend.instagram)") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                if let webUrl = URL(string: "https://www.instagram.com/\(friend.instagram)") {
+                    UIApplication.shared.open(webUrl, options: [:], completionHandler: nil)
+                }
+            }
+        }
+    }
+    
     var body: some View {
         VStack {
             Image(friend.imageName)
@@ -40,15 +52,7 @@ struct FriendProfile: View {
                     }
                     
                     Button {
-                        if let url = URL(string: "instagram//app/\(friend.instagram)") {
-                            if UIApplication.shared.canOpenURL(url) {
-                                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                            } else {
-                                if let webUrl = URL(string: "https://www.instagram.com/\(friend.instagram)") {
-                                    UIApplication.shared.open(webUrl, options: [:], completionHandler: nil)
-                                }
-                            }
-                        }
+                        redirectToSocialMedia()
                     } label: {
                         Image("instagram")
                     }
